@@ -1,8 +1,19 @@
 homepage: "https://www.furniture.com"
-documentation: "https://pages.furniture.com/pixel-resources" 
+documentation: "https://pages.furniture.com/pixel-resources"
 
-#Latest Versions
 versions:
-  - sha: 5f168540d18b4411246babf8d80a8029ef0334b3
-    changeNotes: Initial Upload 
+  # Latest Version
+  - sha: f7da6540f81264d464d230c222b5f408de52d8ec
+    changeNotes: |
+      Version 2
+      - Add GA4 user_pseudo_id variables to each event payload.
+      - Add a financing_start_application with a variable to track the company they use.
+      - Add a new event ‘other’ for tracking any miscellaneous events we want to track from any particular partner. Also included a text box where the user can enter the event name.
+      - Obtain all page views with an option for ‘page_type’ variable.
+      - Add Session source/medium (this will be using URLs) and send it only in the page view payload if NOT BLANK.
 
+  # Older Versions
+  - sha: 5f168540d18b4411246babf8d80a8029ef0334b3
+    changeNotes: |
+      Version 1
+      - Initial upload
