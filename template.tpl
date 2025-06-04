@@ -359,7 +359,7 @@ ___TEMPLATE_PARAMETERS___
   },
   {
     "type": "CHECKBOX",
-    "name": "include UniqueID",
+    "name": "includeUniqueID",
     "checkboxText": "Check to include the unique variable here",
     "simpleValueType": true,
     "enablingConditions": [
@@ -378,7 +378,7 @@ ___TEMPLATE_PARAMETERS___
     "simpleValueType": true,
     "enablingConditions": [
       {
-        "paramName": "include UniqueID",
+        "paramName": "includeUniqueID",
         "paramValue": true,
         "type": "EQUALS"
       }
