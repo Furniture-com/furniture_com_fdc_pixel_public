@@ -374,7 +374,7 @@ ___TEMPLATE_PARAMETERS___
   {
     "type": "TEXT",
     "name": "applicationId",
-    "displayName": "Add your id variable here.",
+    "displayName": "ApplicationID",
     "simpleValueType": true,
     "enablingConditions": [
       {
@@ -387,7 +387,8 @@ ___TEMPLATE_PARAMETERS___
       {
         "type": "NON_EMPTY"
       }
-    ]
+    ],
+    "help": "Add your ApplicationID here."
   },
   {
     "type": "CHECKBOX",
@@ -419,7 +420,8 @@ ___TEMPLATE_PARAMETERS___
       {
         "type": "NON_EMPTY"
       }
-    ]
+    ],
+    "help": "Provide the name of the event you want to track under \u0027Other\u0027"
   }
 ]
 
