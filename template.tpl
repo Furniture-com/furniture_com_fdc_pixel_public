@@ -360,7 +360,7 @@ ___TEMPLATE_PARAMETERS___
   {
     "type": "CHECKBOX",
     "name": "include UniqueID",
-    "checkboxText": "Check to include the unique variable variable here",
+    "checkboxText": "Check to include the unique variable here",
     "simpleValueType": true,
     "enablingConditions": [
       {
